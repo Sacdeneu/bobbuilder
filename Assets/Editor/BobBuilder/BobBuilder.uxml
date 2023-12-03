@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Label text="BobBuilder" />
+    <ui:TextField name="serverAddress" label="Server Address" />
+    <uie:IntegerField name="port" label="Port" />
+    <ui:TextField name="username" label="Username" />
+    <ui:TextField name="password" label="Password" password="true" />
+    <ui:TextField name="remoteDirectory" label="Remote Directory" />
+    <uie:EnumField name="security" label="FTP Security" type="FTPSecurity, Assembly-CSharp-Editor" />
+    <ui:Button name="connectButton" text="Connect" />
+    <ui:Button name="buildAndUploadButton" text="Build and Upload" />
+    <ui:Button name="disconnectButton" text="Disconnect" />
+    <ui:Label name="statusLabel" />
+    <ui:IMGUIContainer name="fileTreeContainer" style="max-height: 450px; min-height: 200px;" />
+</ui:UXML>
