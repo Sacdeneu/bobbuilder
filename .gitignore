@@ -1,2 +1,4 @@
+*
+
 !/.gitignore
-!/Assets/Editor/BobBuilder
+!/Assets/Editor/BobBuilder/*
